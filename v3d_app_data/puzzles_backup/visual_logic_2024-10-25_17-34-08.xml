@@ -1,0 +1,116 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="49.77371826171884" scrolly="-62.52397797698552" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="e7i(IBFY:4sH6Bi_pUOa" inline="false" x="110" y="170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="v_kvwE9FH(rhkIe{!@rv">
+          <field name="FIELDNAME">sphere black</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="]SV$TCMhOk@Zp2W@?2p)">
+          <value name="VALUE2">
+            <shadow type="materialList" id="dY?430=(TZAI^A)%54~2">
+              <field name="FIELDNAME">chrome.001</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="1fB?Sh@xo-q|x}1HTK|B">
+              <field name="FIELDNAME">desk legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="F_Y7h/pHMxA_g;):Qmga" inline="false" x="130" y="270">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="#LdpMqd0Gl}*F0YG?.=|">
+          <field name="FIELDNAME">sphere chrome</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="rSGTxK?H+L-IDiIZOoWL">
+          <value name="VALUE2">
+            <shadow type="materialList" id="BnaA?;]`cFS}I_wMI,4G">
+              <field name="FIELDNAME">chrome</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="x[|Z]Qxcz{EC:S3`-3.E">
+              <field name="FIELDNAME">desk legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="~AO!]`-.D!z@LERs1hPs" inline="false" x="130" y="390">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="$_;OU+9VbK7wapG9/xyu">
+          <field name="FIELDNAME">sphere green</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id=".d4N!}x=Kzv=Y@ortdPw">
+          <value name="VALUE2">
+            <shadow type="materialList" id="9d|_FD^o?e+KBYk(U!Pd">
+              <field name="FIELDNAME">chrome.002</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="idTAp??7.LfPtS[T0M/D">
+              <field name="FIELDNAME">desk legs</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="u)/RAyxxhbAJ0`%,%-Bc" inline="false" x="30" y="590">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="pr;E4g{9K6f*_FvzLgR5">
+          <field name="FIELDNAME">slab 2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id="WQ)D5FCXju1*5`a,dDPR">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+          <field name="OLD_TEX_NAME">wood_basecolor_3.jpg</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id=")1plzo_m-02a2#.L@Ms$">
+              <field name="FIELDNAME">wood_material.00</field>
+            </shadow>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id="epXWE.+W0(MqU0B7T1Lg">
+              <field name="TEXT">interactive_table/wood_basecolor_2</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="864" viewport-y="37" viewport-w="588" viewport-h="393" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
